@@ -11,7 +11,7 @@ class Day1Test {
 
     @Test
     fun `should extract calibration values from document`() {
-        val lines = linesFromFile(filePath("/01/01-input"))
+        val lines = linesFromFile(filePath("/01/input"))
 
         val total = lines.map { line ->
             line.toCharArray()
@@ -28,7 +28,7 @@ class Day1Test {
 
     @Test
     fun `should extract calibration values from document even if values are in character`() {
-        val lines = linesFromFile(filePath("/01/01-input"))
+        val lines = linesFromFile(filePath("/01/input"))
         val updatedLines: MutableList<String> = mutableListOf()
 
         lines.forEach { line ->
