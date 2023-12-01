@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
 class Day1Test {
 
     @Test
-    fun `should do something`() {
+    fun `should extract calibration values from document`() {
         val lines = linesFromFile(filePath("/01/01-input")) // test
 
         val total = lines.map { line ->
@@ -21,5 +21,10 @@ class Day1Test {
         }
 
         println("total: $total")
+    }
+
+    @Test
+    fun `should do something`() {
+        TODO("Not yet implemented")
     }
 }
