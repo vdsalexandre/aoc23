@@ -1,4 +1,4 @@
-package aoc.day1
+package aoc.day
 
 import aoc.Utils
 import org.junit.jupiter.api.Test

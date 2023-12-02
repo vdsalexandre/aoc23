@@ -1,4 +1,4 @@
-package aoc.day1
+package aoc.day
 
 import aoc.Utils.filePath
 import aoc.Utils.linesFromFile
