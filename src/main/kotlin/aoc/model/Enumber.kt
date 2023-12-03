@@ -1,6 +1,6 @@
 package aoc.model
 
-data class Enumber(val startRow: Int, val startCol: Int, val value: String) {
+data class Enumber(val startRow: Int, val startCol: Int, val value: String, var symbolId: String = "") {
 
     fun isAdjacentWith(row: Int, col: Int): Boolean {
         return row to col in getAllAdjacentAround()
