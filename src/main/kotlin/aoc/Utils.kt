@@ -9,4 +9,6 @@ object Utils {
 
     fun filePath(filename: String) =
         object {}.javaClass.getResource(filename)?.file ?: throw FileNotFoundException(filename)
+
+    fun stringNumbersToList(line: String) = line.trim().replace("\\s+".toRegex(), " ").split(" ").map { it.toInt() }
 }
